@@ -1,0 +1,61 @@
+%searchbar{
+    size: 20px;
+    width: 500px;
+    height: 40px;
+
+}
+
+.mitt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+
+}
+form > img {
+    margin-bottom: 10px;
+    width: 300px;
+}
+
+input{
+    @extend %searchbar;
+    margin-top: 0px;
+    border-radius: 30px;
+    font-size: large;
+
+}
+input[type=submit]{
+    width: 150px;
+    margin-top: 20px;
+    
+}
+
+a{
+    display: flex;
+    justify-content: right;
+}
+
+img{
+    width: 80px;
+}
+
+h1{
+    color: red;
+    margin-left: 45px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div{
+    border: 1px solid gray;
+    height: 1px;
+}
+
+h2{
+    padding: 20px;
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-left: 10px;
+}
