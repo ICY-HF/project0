@@ -4,19 +4,32 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
+        <a href="index.html">Back to Mahogle search</a>
         <img src="mahogle.png">
         <h1>Andvanced search</h1>
         <hr color="gray">
-        <div>
-        <h2>Find pages with ...</h2>
-        <form class="advform"action="https://www.google.com/search">
-            all these words:
-            <input type="text" name="q">
-            this exact word or phrase
-            <input type="text" name="q">
-
-
+        <form class="advform" action="https://www.google.com/search">
+            <h2>Find pages with ...</h2>
+            <div>
+                <label> all these words:</label>
+                <input type="text" name="q">
+            </div>
+            <div>
+                <label>this exact word or phrase:</label>
+                <input type="hidden" name='"'>
+                <input type="text" name="q">
+                <input type="hidden" name='"'>
+            </div>
+            <div>
+                <label>any of these words:</label>
+                <input type="text">
+            </div>
+            <div>
+                
+                <label>none of these words:</label>
+                <input type="text" name="q">
+            </div>
+            <input type="submit" value="Advanved search">
         </form>
-        </div>
     </body>
 </html>
