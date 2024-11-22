@@ -70,9 +70,12 @@ h1 {
   margin-top: 30px;
   height: 30px;
   width: 150px;
-  background-color: rgb(75, 174, 207);
+  background-color: rgb(80, 115, 202);
   color: white;
   align-self: flex-end;
+}
+.advform input[type=submit]:hover {
+  background-color: rgb(58, 100, 207);
 }
 
 /*# sourceMappingURL=style.css.map */
